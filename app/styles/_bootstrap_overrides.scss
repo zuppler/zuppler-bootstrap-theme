@@ -1,0 +1,30 @@
+.form-control {
+  box-shadow:none !important;
+}
+
+.well {
+  box-shadow:none;
+}
+
+.jumbotron {
+  p {
+    font-weight:100;
+  }
+  .btn-default {
+    background-color: #DBDBDB; //#A54026;
+    border-color: #DBDBDB;
+    color: $gray-base;
+  }
+  .btn-primary {
+    background-color:$gray-base;
+    border-color:$gray-base;
+  }
+  .form-control {
+    border-color: #fff;
+  }
+  form {
+    p {font-weight:400;}
+  }
+}
+
+.navbar + .jumbotron { margin-top:$navbar-height; }
