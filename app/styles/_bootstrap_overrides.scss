@@ -28,3 +28,22 @@
 }
 
 .navbar + .jumbotron { margin-top:$navbar-height; }
+.breadcrumb .active > a {
+  color: inherit;
+}
+
+// Profile Picture
+
+.profile-userpic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 128px;
+  height: 128px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+
+  &>img {
+  }
+}
