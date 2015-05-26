@@ -28,6 +28,7 @@
   }
 }
 
+// A new panel Style. Panel Important
 .panel-important {
   background-color: $brand-primary;  
 
@@ -69,7 +70,6 @@
 }
 
 // Profile Picture
-
 .profile-userpic {
   display: flex;
   align-items: center;
@@ -82,4 +82,31 @@
 
   &>img {
   }
+}
+
+// A new Navigation. Sidebar Navigation;
+.panel .nav-pills > li:not(.active) > a:hover{
+  background-color: $gray-lightish;
+}
+
+.nav li > a > .glyphicon {
+  margin-right: 10px;
+}
+.nav-pills li > a > .glyphicon,
+.list-unstyled li > a > .glyphicon {
+  margin-right: 10px;
+  color: $gray-base;
+}
+
+// Achievements block
+
+.achievements-container {
+  display: flex;
+}
+.achievement {
+  flex-grow: 1;
+}
+.achievement-score {
+  font-size: 3.6rem;
+  display:block;
 }
