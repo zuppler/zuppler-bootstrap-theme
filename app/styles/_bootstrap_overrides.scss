@@ -6,6 +6,7 @@
   box-shadow:none;
 }
 
+// Just in case someone wants a form in a jumbotron, which he shouldn't
 .jumbotron {
   p {
     font-weight:100;
@@ -24,6 +25,41 @@
   }
   form {
     p {font-weight:400;}
+  }
+}
+
+.panel-important {
+  background-color: $brand-primary;  
+
+  .panel-heading {
+    background-color: $gray-base;
+    color: $gray-lighter;
+  }
+
+  .panel-body {
+    color: $gray-lighter;
+  }
+
+  p {
+    font-weight:100;
+  }
+  .btn-default {
+    background-color: #DBDBDB; //#A54026;
+    border-color: #DBDBDB;
+    color: $gray-base;
+  }
+  .btn-primary {
+    background-color:$gray-base;
+    border-color:$gray-base;
+  }
+  .form-control {
+    border-color: #fff;
+  }
+  form {
+    p {font-weight:400;}
+  }
+  .help-block {
+    color: $gray-lighter;
   }
 }
 
