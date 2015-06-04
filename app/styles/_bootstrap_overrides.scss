@@ -110,3 +110,64 @@
   font-size: 3.6rem;
   display:block;
 }
+
+
+// Footer
+.site-footer {
+  padding: 15px 0;
+}
+.site-footer-dark {
+  background-color: $gray-base;
+  .nav-pills li a,
+  a, p {
+    color: #76666C;
+  }
+  .nav-pills li.active a {
+    color: $gray-lighter;
+    background-color: transparent;
+  }
+  .nav-pills li a {
+    &:hover {
+      background-color: transparent;
+      color: $gray-lighter;
+    }
+  }
+}
+.site-footer-light {
+  background-color: $gray-lightish;
+  .nav-pills li a,
+  a, p {
+    color: $gray-base;
+  }
+  .nav-pills li.active a {
+    color: $brand-primary;
+    background-color: transparent;
+  }
+  .nav-pills li a {
+    &:hover {
+      background-color: transparent;
+      color: $brand-primary;
+    }
+  }
+}
+@media (max-width: $screen-md) { 
+  .site-footer ul.nav-pills {
+    float:none;
+    width: 100%;
+  }
+  .site-footer .nav-pills li {
+    display: block;
+    float: none;
+    text-align: center;
+    border-bottom: 1px solid rgba(118, 102, 108, 0.45);
+  }
+  .site-footer-light .nav-pills li {
+    border-bottom: 1px solid rgba(118, 102, 108, 0.25);
+  }
+  .poweredBy {
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-bottom:15px;
+  }
+}
