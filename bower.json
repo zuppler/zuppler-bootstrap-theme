@@ -1,7 +1,14 @@
 {
   "name": "zuppler-bootstrap",
   "private": true,
-  "main": "./dist/styles/zuppler-theme.css",
+  "main": [
+    "./dist/styles/zuppler-theme.css",
+    "./dist/fonts/glyphicons-halflings-regular.eot",
+    "./dist/fonts/bootstrap/glyphicons-halflings-regular.svg",
+    "./dist/fonts/bootstrap/glyphicons-halflings-regular.ttf",
+    "./dist/fonts/bootstrap/glyphicons-halflings-regular.woff",
+    "./dist/fonts/bootstrap/glyphicons-halflings-regular.woff2"
+  ],
   "dependencies": {
     "bootstrap-sass-official": "~3.3.1",
     "modernizr": "~2.8.1"
